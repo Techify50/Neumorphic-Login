@@ -3,6 +3,7 @@ import 'package:neuromorphism/assignment/ui.dart';
 import 'package:neuromorphism/glassmorphism/glssmorphism.dart';
 import 'package:neuromorphism/logic/print_price.dart';
 import 'package:neuromorphism/pink_LogIn/pink_LogIn.dart';
+import 'package:neuromorphism/popup_button/another_button.dart';
 import 'package:neuromorphism/popup_button/pop_up.dart';
 import 'package:neuromorphism/register/register.dart';
 
@@ -20,7 +21,7 @@ class Neuromorphism extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LogIn_S(),
+      home: MyWidget(),
     );
   }
 }
